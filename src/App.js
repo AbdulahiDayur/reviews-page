@@ -1,10 +1,11 @@
 import React from "react";
+import Review from "./reviews";
 
 function App() {
   return (
-    <div className="App">
-      <h1>HelloooooOOOoooo Friends!</h1>
-    </div>
+    <main>
+      <Review />
+    </main>
   );
 }
 
