@@ -1,10 +1,16 @@
 import React from "react";
-import Review from "./reviews";
+import Reviews from "./reviews";
 
 function App() {
   return (
     <main>
-      <Review />
+      <section className="container">
+        <div className="title">
+          <h1>Our Reviews</h1>
+          <div className="underline"></div>
+        </div>
+        <Reviews />
+      </section>
     </main>
   );
 }
